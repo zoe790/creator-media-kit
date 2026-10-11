@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(preview-font-0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(preview-font-1.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Shrikhand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(preview-font-2.ttf) format('truetype');
+}

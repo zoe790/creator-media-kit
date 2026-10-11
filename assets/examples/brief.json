@@ -1,0 +1,77 @@
+{
+  "demo": true,
+  "profile": {
+    "name": "Alex Rivers",
+    "location": "SAMPLE PROFILE",
+    "roles": [
+      "Lifestyle creator",
+      "Visual storytelling"
+    ],
+    "tags": [
+      "Everyday living",
+      "City guides",
+      "Product stories"
+    ],
+    "bio": "Everyday experiences, thoughtfully told.",
+    "description": "Stories that connect products with the way people live.",
+    "accounts": [
+      {
+        "platform": "Platform A",
+        "followers": "128K"
+      },
+      {
+        "platform": "Platform B",
+        "followers": "32K"
+      },
+      {
+        "platform": "Platform C",
+        "followers": "8.6K"
+      }
+    ]
+  },
+  "brands": [
+    {
+      "id": "demo-a",
+      "name": "Demo Brand A",
+      "confirmed": true
+    },
+    {
+      "id": "demo-b",
+      "name": "Demo Brand B",
+      "confirmed": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "case-1",
+      "title": "A product in everyday life",
+      "kind": "sponsored",
+      "brand_id": "demo-a",
+      "image": "case-1.svg"
+    },
+    {
+      "id": "case-2",
+      "title": "An experience worth sharing",
+      "kind": "sponsored",
+      "brand_id": "demo-b",
+      "image": "case-2.svg"
+    },
+    {
+      "id": "case-3",
+      "title": "A different side of the city",
+      "kind": "editorial",
+      "image": "case-3.svg"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Stories with a sense of place.",
+      "subtitle": "Fictional examples to demonstrate the layout.",
+      "case_ids": [
+        "case-1",
+        "case-2",
+        "case-3"
+      ]
+    }
+  ]
+}

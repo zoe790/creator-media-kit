@@ -1,0 +1,6 @@
+interface:
+  display_name: "Creator Media Kit"
+  short_description: "Create visual portfolios from recordings, screenshots, or links"
+  default_prompt: "Use $creator-media-kit to turn my profile recording, screenshots, or accessible profile link into an English media kit. Recommend three visual previews, preserve the source evidence, and deliver images with editable HTML."
+policy:
+  allow_implicit_invocation: true

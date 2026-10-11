@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+/output*/
+/private*/
+/workspace*/
+/research.md
+/brief.json
+/source-brief.json
+*storage-state*.json
+*cookies*.json

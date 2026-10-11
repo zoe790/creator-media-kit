@@ -1,0 +1,94 @@
+[
+  {
+    "id": "01",
+    "slug": "pink-sticker",
+    "name": "Pink & Green Stickers",
+    "feature": "Framed photography, pink rules, and playful green stickers",
+    "portrait_mode": "framed",
+    "palette": [
+      "#F1F1EF",
+      "#EF95BA",
+      "#A9D98C"
+    ]
+  },
+  {
+    "id": "02",
+    "slug": "pink-scrapbook",
+    "name": "Pink Scrapbook",
+    "feature": "Oversized pink type, layered portraits, and handwritten notes",
+    "portrait_mode": "overlap",
+    "palette": [
+      "#F0EBDD",
+      "#DA8BB5"
+    ]
+  },
+  {
+    "id": "03",
+    "slug": "navy-creator",
+    "name": "Navy Creator",
+    "feature": "Navy and white, bold figures, and layered headlines",
+    "portrait_mode": "overlap",
+    "palette": [
+      "#1B3967",
+      "#F7F7F3"
+    ]
+  },
+  {
+    "id": "04",
+    "slug": "cream-ugc",
+    "name": "Cream UGC",
+    "feature": "Warm neutrals, serif typography, and fine framing",
+    "portrait_mode": "framed",
+    "palette": [
+      "#FCFAF4",
+      "#E8DED8",
+      "#A7745B"
+    ]
+  },
+  {
+    "id": "05",
+    "slug": "cocoa-retro",
+    "name": "Cocoa Retro",
+    "feature": "Expressive type, brown and orange, and arched photography",
+    "portrait_mode": "framed",
+    "palette": [
+      "#432419",
+      "#F4E99E",
+      "#FC4A03"
+    ]
+  },
+  {
+    "id": "06",
+    "slug": "red-editorial",
+    "name": "Red Editorial",
+    "feature": "Red editorial type, restrained markers, and aligned case cards",
+    "portrait_mode": "framed",
+    "palette": [
+      "#E8E6D9",
+      "#CF3F2F"
+    ]
+  },
+  {
+    "id": "07",
+    "slug": "long-table",
+    "name": "Long Table",
+    "feature": "Cream, brick red, fine rules, and structured typography",
+    "portrait_mode": "overlap",
+    "palette": [
+      "#FAF1E2",
+      "#B53D2A"
+    ]
+  },
+  {
+    "id": "08",
+    "slug": "editorial-tri-tone",
+    "name": "Editorial Tri-Tone",
+    "feature": "Burgundy, pink, yellow, and magazine-inspired composition",
+    "portrait_mode": "overlap",
+    "palette": [
+      "#F2B6C6",
+      "#7A1F35",
+      "#F2D86A"
+    ]
+  }
+]
