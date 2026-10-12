@@ -6,10 +6,6 @@ An AI skill for creators who need a clear, visual introduction to their work. St
 
 Eight visual styles. Three recommended previews by default. No paid data API required for the recording or screenshot workflow.
 
-![Beyond the Feed — Seen to Signed. A real Zoe Cao portfolio with titles and client logos redacted](assets/examples/zoe-cao/preview.jpg)
-
-*This is my own media kit, presented as Zoe Cao. The portrait and work samples are real. Video titles, identifying screenshot text, and client logos are masked for public display. The follower figure is a recorded, rounded platform count, not a live metric or a campaign result. [Compare all eight styles](assets/examples/eight-styles-preview.jpg).*
-
 ## Why I built this
 
 Many of my client conversations start on WeChat. Someone finds my content, gets in touch, and wants to understand what working together might look like. At that point, I need a practical way to introduce myself: what I create, who my content is for, and which pieces of work best represent me.
@@ -18,7 +14,7 @@ A personal website can hold all of that. But in the middle of a conversation, se
 
 I wanted something that fits the way those conversations already happen. One image that opens directly in a chat or sits alongside an email. A concise overview that someone can scan, save, and forward to a colleague. Enough context to understand my work and decide whether to continue the conversation.
 
-That is the idea behind Beyond the Feed. The example above uses my own photographs and selected work, so you can see the kind of introduction I wanted to be able to send. The public version keeps the person and the visual composition while withholding specific video titles and client identities.
+That is the idea behind Beyond the Feed. The examples in the style overview use my own photographs and selected work, so you can see the kind of introduction I wanted to be able to send. The public version keeps the person and the visual composition while withholding specific video titles and client identities.
 
 The starting material already exists. It is on a creator's profile, in their published posts, and in the screenshots they keep collecting. The difficult part is choosing what matters, explaining it clearly, and putting it into a consistent visual format. I built this skill to help with that transition: from a collection of posts to an introduction someone can use to evaluate a potential collaboration.
 
@@ -150,6 +146,8 @@ To reproduce the redacted showcase locally, use `assets/examples/zoe-cao/brief.j
 ## Eight visual directions
 
 ![Beyond the Feed — eight English portfolio styles featuring Zoe Cao, with titles and client identities redacted](assets/examples/eight-styles-preview.jpg)
+
+*This is my own media kit, presented as Zoe Cao. The portrait and work samples are real. Video titles, identifying screenshot text, and client logos are masked for public display. The follower figure is a recorded, rounded platform count, not a live metric or a campaign result. [Compare all eight styles](assets/examples/eight-styles-preview.jpg).*
 
 | Style | Character | Style ID |
 | --- | --- | --- |
