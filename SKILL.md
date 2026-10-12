@@ -3,7 +3,7 @@ name: creator-media-kit
 description: Create creator media kits and brand partnership portfolios from profile recordings, screenshots, account details, or accessible profile links. Deliver PNG, JPG, and editable HTML in eight available styles, with evidence-based statistics and optional portraits or confirmed brand logos. Use for creator partnership introductions, not franchise sales or fundraising decks.
 ---
 
-# Creator Media Kit
+# Beyond the Feed
 
 Turn authentic creator materials into a visual introduction that a potential partner can scan in a chat or email. Accept a recording, screenshots, a profile link, or an existing brief; use available material before asking for more. Documentation and fixed template labels are English. Draft English explanatory copy by default while preserving names, raw numerical values, and original source images.
 
