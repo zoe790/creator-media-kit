@@ -63,10 +63,13 @@ def build(inp,out,styles='all',mode='full'):
         result=[]
         for cid in ids:
             c=cm[cid]; b=bm.get(c.get('brand_id')); title=c.get('title','')
-            top=logo(b) if b and b.get('confirmed') is True and c['kind']=='sponsored' else '<span class="brand-name">Content showcase</span>'
+            has_brand=b and b.get('confirmed') is True and c['kind']=='sponsored'
+            kind_label={'sponsored':'Brand collaboration','editorial':'Independent work','unknown':'Content showcase'}[c['kind']]
+            top=logo(b) if has_brand else '<span class="brand-name">'+kind_label+'</span>'
+            kind_line='<div class="case-kind">'+kind_label+'</div>' if has_brand else ''
             shot='<img class="original" src="'+c['_src']+'" alt="'+esc(title)+'">' if c['_src'] else '<div class="missing-image">Case image not supplied</div>'
             metrics=''.join('<span>'+esc(m['label'])+' '+esc(m['value'])+'</span>' for m in c.get('metrics',[]) if m.get('show') is True and m.get('value') is not None)
-            result.append('<article class="card" data-case="'+esc(cid)+'"><div class="card-head"><div class="logo-stage">'+top+'</div><div class="case-kind">'+{'sponsored':'Brand collaboration','editorial':'Independent work','unknown':'Content showcase'}[c['kind']]+'</div></div>'+shot+'<div class="caption">'+esc(title)+'</div><div class="metrics">'+metrics+'</div></article>')
+            result.append('<article class="card" data-case="'+esc(cid)+'"><div class="card-head"><div class="logo-stage">'+top+'</div>'+kind_line+'</div>'+shot+'<div class="caption">'+esc(title)+'</div><div class="metrics">'+metrics+'</div></article>')
         return ''.join(result)
     accounts=[a for a in profile.get('accounts',[]) if a.get('platform') and a.get('followers') is not None and str(a['followers']).strip()]
     def stats(seq,cls='stats'):

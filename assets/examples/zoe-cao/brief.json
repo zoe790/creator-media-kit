@@ -1,0 +1,127 @@
+{
+  "profile": {
+    "name": "Zoe Cao",
+    "location": "LONDON",
+    "roles": [
+      "Creator & founder",
+      "Lifestyle, travel & ideas"
+    ],
+    "tags": [
+      "Everyday life",
+      "Creative tools",
+      "Building a business"
+    ],
+    "bio": "Stories from a life in progress.",
+    "description": "Life in London, creative tools, and the experience of building a business.",
+    "accounts": [
+      {
+        "platform": "Xiaohongshu",
+        "followers": "17.2万",
+        "source": "Creator-supplied profile recording, observed at 0.42 seconds"
+      }
+    ]
+  },
+  "photos": {
+    "original": "assets/zoe-portrait.png",
+    "cutout": "assets/zoe-cutout.png"
+  },
+  "brands": [
+    {
+      "id": "client-01",
+      "name": "Client 01 — redacted",
+      "confirmed": true,
+      "logo": "assets/client-01-redacted.png",
+      "confirmation_source": "Creator supplied the client-work reference and requested redacted public presentation."
+    },
+    {
+      "id": "client-02",
+      "name": "Client 02 — redacted",
+      "confirmed": true,
+      "logo": "assets/client-02-redacted.png",
+      "confirmation_source": "Creator supplied the client-work reference and requested redacted public presentation."
+    },
+    {
+      "id": "client-03",
+      "name": "Client 03 — redacted",
+      "confirmed": true,
+      "logo": "assets/client-03-redacted.png",
+      "confirmation_source": "Creator supplied the client-work reference and requested redacted public presentation."
+    },
+    {
+      "id": "client-04",
+      "name": "Client 04 — redacted",
+      "confirmed": true,
+      "logo": "assets/client-04-redacted.png",
+      "confirmation_source": "Creator supplied the client-work reference and requested redacted public presentation."
+    },
+    {
+      "id": "client-05",
+      "name": "Client 05 — redacted",
+      "confirmed": true,
+      "logo": "assets/client-05-redacted.png",
+      "confirmation_source": "Creator supplied the client-work reference and requested redacted public presentation."
+    },
+    {
+      "id": "client-06",
+      "name": "Client 06 — redacted",
+      "confirmed": true,
+      "logo": "assets/client-06-redacted.png",
+      "confirmation_source": "Creator supplied the client-work reference and requested redacted public presentation."
+    }
+  ],
+  "cases": [
+    {
+      "id": "case-01",
+      "title": "Selected project 01",
+      "kind": "sponsored",
+      "brand_id": "client-01",
+      "image": "assets/case-01.png",
+      "image_type": "screenshot",
+      "source": "Creator-supplied reference; titles and identifying text masked for publication."
+    },
+    {
+      "id": "case-02",
+      "title": "Selected project 02",
+      "kind": "sponsored",
+      "brand_id": "client-02",
+      "image": "assets/case-02.png",
+      "image_type": "screenshot",
+      "source": "Creator-supplied reference; titles and identifying text masked for publication."
+    },
+    {
+      "id": "case-03",
+      "title": "Selected project 03",
+      "kind": "sponsored",
+      "brand_id": "client-03",
+      "image": "assets/case-03.png",
+      "image_type": "screenshot",
+      "source": "Creator-supplied reference; titles and identifying text masked for publication."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Real life. Selected work.",
+      "subtitle": "A selection of creator projects. Client identities and titles are withheld.",
+      "case_ids": [
+        "case-01",
+        "case-02",
+        "case-03"
+      ]
+    }
+  ],
+  "delivery_note": "Public sample: titles and client logos redacted. 17.2万 = 172K (rounded; not live data).",
+  "provenance": {
+    "profile.name": {
+      "status": "user_confirmed",
+      "source": "Creator selected the public name Zoe Cao."
+    },
+    "profile.bio": {
+      "status": "suggested",
+      "source": "Themes visible in creator-supplied work."
+    },
+    "profile.description": {
+      "status": "suggested",
+      "source": "Themes visible in creator-supplied work."
+    }
+  }
+}

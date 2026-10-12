@@ -24,7 +24,7 @@ Turn authentic creator materials into a visual introduction that a potential par
 - Only supplementary metrics with `show: true` are displayed. Never rewrite numbers inside original screenshots. Omit unreadable figures or list them privately for review.
 - Keep case cards equal in width and aligned at the top. Preserve logo proportions and use a compact strip below the cases, normally selecting six confirmed brands. Use the schema settings when the user requests the full list.
 - Keep names, roles, and statistics readable. Adjust composition rather than reducing essential copy to an unreadable size. Preserve the identity, clothing, and proportions in supplied photos.
-- Demo assets are fictional. Never pass them off as a user's identity, actual account statistics, or client work.
+- The default demo brief is fictional; the separately labelled Zoe Cao showcase is an authorized, redacted real example. Neither is a new user's identity, account data, or client work. Replace example materials with the user's own evidence.
 
 ## Resources
 

@@ -1,6 +1,6 @@
 # Credits and licensing
 
-The eight layouts are implemented with HTML and CSS around the selected visual directions. The public package includes fictional account and case data with photo-free examples. It does not include personal portraits, real account screenshots, private client materials, or a personal cartoon likeness.
+The eight layouts are implemented with HTML and CSS around the selected visual directions. The default testing fixtures use fictional account and case data. A separate Zoe Cao showcase uses creator-authorized photographs, a supplied portrait cutout, and permanently redacted work screenshots. Those visual materials are excluded from the MIT license; see [the showcase asset notice](../assets/examples/zoe-cao/LICENSE.txt). The original unredacted screenshots, client logos, and recordings are not distributed.
 
 Long Table and Editorial Tri-Tone reference design directions from [beautiful-html-templates](https://github.com/zarazhangrui/beautiful-html-templates). Its MIT notice is retained at `assets/licenses/beautiful-html-templates-MIT.txt`.
 

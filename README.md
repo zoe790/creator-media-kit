@@ -8,9 +8,9 @@ An AI skill for creators who need a clear, visual introduction to their work. St
 
 Eight visual styles. Three recommended previews by default. No paid data API required for the recording or screenshot workflow.
 
-![Eight media kit styles using a fictional creator and fictional examples](assets/examples/eight-styles-preview.jpg)
+![Zoe Cao — a real creator media kit with video titles and client logos redacted](assets/examples/zoe-cao/preview.jpg)
 
-*All names, account statistics, and collaborations in this preview are fictional. The examples demonstrate layout, not actual campaign results.*
+*This is my own media kit, presented as Zoe Cao. The portrait and work samples are real. Video titles, identifying screenshot text, and client logos are masked for public display. The follower figure is a recorded, rounded platform count, not a live metric or a campaign result. [Compare all eight styles](assets/examples/eight-styles-preview.jpg).*
 
 ## Why I built this
 
@@ -20,7 +20,7 @@ A personal website can hold all of that. But in the middle of a conversation, se
 
 I wanted something that fits the way those conversations already happen. One image that opens directly in a chat or sits alongside an email. A concise overview that someone can scan, save, and forward to a colleague. Enough context to understand my work and decide whether to continue the conversation.
 
-That is the idea behind Creator Media Kit.
+That is the idea behind Creator Media Kit. The example above uses my own photographs and selected work, so you can see the kind of introduction I wanted to be able to send. The public version keeps the person and the visual composition while withholding specific video titles and client identities.
 
 The starting material already exists. It is on a creator's profile, in their published posts, and in the screenshots they keep collecting. The difficult part is choosing what matters, explaining it clearly, and putting it into a consistent visual format. I built this skill to help with that transition: from a collection of posts to an introduction someone can use to evaluate a potential collaboration.
 
@@ -111,7 +111,7 @@ Invoke the skill by name and attach your material, using one of the prompts abov
 
 ## Try the included demo
 
-You can test the layout engine without connecting a social account or providing personal data. The bundled brief and example screenshots are fictional.
+You can test the layout engine without connecting a social account or providing personal data. The default `assets/examples/brief.json` uses a clearly labelled fictional “Sample Creator” fixture. The real Zoe Cao showcase lives separately in `assets/examples/zoe-cao/`, with its own asset-use notice.
 
 Requirements:
 
@@ -147,7 +147,11 @@ These shell examples use macOS/Linux syntax. On other systems, set the equivalen
 
 Open the output's `index.html` to compare the images and open individual layouts. To build all eight complete versions, use `--styles all --mode full` and a new output directory. The CLI defaults to `all` and `full`; the assistant explicitly chooses the three-style preview workflow.
 
+To reproduce the redacted showcase locally, use `assets/examples/zoe-cao/brief.json` as the input with a new output directory. Its images are already flattened with opaque mosaic masks; no unredacted client logos or post screenshots are included. The source brief uses neutral project and client identifiers. Keep the [showcase asset notice](assets/examples/zoe-cao/LICENSE.txt) with these files, and replace them with your own authorized material for your portfolio.
+
 ## Eight visual directions
+
+![Eight English media kit styles featuring Zoe Cao, with titles and client identities redacted](assets/examples/eight-styles-preview.jpg)
 
 | Style | Character | Style ID |
 | --- | --- | --- |
@@ -204,7 +208,7 @@ The builder and renderer are implemented and tested. Recording intake has been t
 
 Original photos and post screenshots generally give the strongest image quality. If a recording only contains tiny or blurred covers, the assistant may produce a useful introduction first and request a small number of clearer images for the final version. Very long media kits may also benefit from supplementary sections for mobile reading.
 
-Keep real briefs, recordings, screenshots, and outputs outside this repository. Only fictional demo materials belong in the public package.
+Keep private briefs, recordings, and unredacted client materials outside this repository. The public package includes a creator-authorized, redacted Zoe Cao showcase and separate fictional testing fixtures. Display permission for this example does not authorize publishing another user’s material.
 
 ## Repository guide
 
@@ -218,7 +222,7 @@ creator-media-kit/
   scripts/test_build.py    Behavioral tests
   references/              Intake, schema, design, and delivery guidance
   assets/templates/        Eight HTML/CSS styles
-  assets/examples/         Fictional demonstration materials
+  assets/examples/         Fictional fixtures and an authorized redacted showcase
   assets/fonts/            Bundled fonts
   assets/licenses/         Third-party license notices
   LICENSE                  MIT license for project code

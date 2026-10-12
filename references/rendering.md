@@ -44,4 +44,4 @@ The renderer checks image loading, horizontal page overflow, and script errors. 
 
 Templates use a 1080-pixel canvas. Adapt exported HTML/CSS for unusually long content rather than squeezing important text into an unreadable fixed cover. Single-project adjustments do not require changing the skill's source templates.
 
-Run behavioral tests with `python3 <skill>/scripts/test_build.py`. Use the fictional brief in `assets/examples/brief.json` for public demonstrations.
+Run behavioral tests with `python3 <skill>/scripts/test_build.py`. Use the fictional brief in `assets/examples/brief.json` for generic tests, or the separately authorized redacted `assets/examples/zoe-cao/brief.json` to reproduce the published showcase.

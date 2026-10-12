@@ -76,4 +76,4 @@ Use `observed`, `user_confirmed`, or `suggested` as evidence statuses. These fie
 
 For recordings, store clear frames as ordinary image assets. An account or case may include `source: "recordings/profile.mov"` and `source_time_seconds: 2.4`. The renderer uses the extracted image, not the video. Only use a known recording/data date for `as_of`; record processing time separately when the data date is unknown.
 
-`demo: true` adds a visible fictional-data notice. The runnable examples in `assets/examples` use invented data and no portrait. Real briefs, original recordings, and extracted frames belong in a separate private project.
+`demo: true` adds a visible fictional-data notice. The default runnable fixtures in `assets/examples/brief.json` and `brief-no-photo.json` use invented data and no portrait. The separate `assets/examples/zoe-cao/` directory is an authorized, redacted real showcase and does not set `demo: true`. New user briefs, original recordings, and extracted frames belong in a separate private project.
